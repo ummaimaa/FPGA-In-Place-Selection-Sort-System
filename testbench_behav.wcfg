@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999996516fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000697fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="115"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/s" type="logic">
+      <obj_property name="ElementShortName">s</obj_property>
+      <obj_property name="ObjectShortName">s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/init_mode" type="logic">
+      <obj_property name="ElementShortName">init_mode</obj_property>
+      <obj_property name="ObjectShortName">init_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/init_addr" type="array">
+      <obj_property name="ElementShortName">init_addr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">init_addr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/init_data" type="array">
+      <obj_property name="ElementShortName">init_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">init_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/RAM_out" type="array">
+      <obj_property name="ElementShortName">RAM_out[0:7][7:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_out[0:7][7:0]</obj_property>
+   </wvobject>
+</wave_config>
